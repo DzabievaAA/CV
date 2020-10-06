@@ -20,9 +20,7 @@ function Star(x, y, width, speed) {
    
   this.draw = function() {
   ctx.fillStyle = this.color;
-  debugger;
-  let ratio = canvas.clientWidth / canvas.clientHeight;
-  ctx.fillRect(this.x, this.y, width, width * ratio );
+  ctx.fillRect(this.x, this.y, width, width );
   }
 
   this.update = () => {

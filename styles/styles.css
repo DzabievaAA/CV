@@ -5,8 +5,8 @@ body {
 }
 
 canvas {
-  position: absolute;
-  z-index: 1;
+  position: fixed;
+  z-index: -1;
   height: 100%;
   width: 100%;
 }
@@ -96,6 +96,10 @@ canvas {
   color: #ffffff;
   padding-top: 10px;
   font-size: 18px;
+}
+
+.name_profes {
+  color: #ffb00b;
 }
 
 a {
