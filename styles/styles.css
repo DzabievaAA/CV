@@ -1,0 +1,136 @@
+body {
+  background: radial-gradient(ellipse at bottom, #141e2b 0%, #0e0f15 100%);
+  margin: 0;
+  position: relative;
+}
+
+canvas {
+  position: absolute;
+  z-index: 1;
+  height: 100%;
+  width: 100%;
+}
+
+.header {
+  position: absolute;
+  text-align: center;
+}
+.header .header_img {
+  position: relative;
+  z-index: 2;
+  width: 80%;
+  height: 70%;
+}
+.header .my_name {
+  position: relative;
+  z-index: 3;
+  top: -60%;
+  color: white;
+}
+.header .my_profession {
+  position: relative;
+  z-index: 3;
+  top: -60%;
+  color: #ffffff;
+}
+
+.projects_name_block {
+  position: relative;
+  z-index: 3;
+  color: #a55880;
+  font-size: 30px;
+  line-height: 1;
+}
+
+.block_with_description {
+  position: relative;
+  z-index: 3;
+  color: #ffffff;
+  text-align: center;
+  line-height: 1;
+}
+
+.second_row_project {
+  padding-top: 30px;
+}
+
+.skills_name_block {
+  position: relative;
+  z-index: 3;
+  color: #a55880;
+  font-size: 30px;
+}
+
+.skills_ring {
+  width: 100px;
+  height: 100px;
+  margin-top: 30px;
+  border-radius: 100%;
+  box-shadow: 0 0 7px #fff;
+  transition: all 0.2s linear;
+}
+.skills_ring:hover {
+  transform: translate(30px);
+}
+
+.name_skills {
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+  position: relative;
+  z-index: 3;
+  top: -38%;
+}
+
+.one_word {
+  top: -32%;
+}
+
+.text_employ {
+  color: #ffffff;
+  padding-top: 10px;
+  font-size: 18px;
+}
+
+.decript_work {
+  color: #ffffff;
+  padding-top: 10px;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 5px 10px;
+  letter-spacing: 1px;
+  margin: 0 20px;
+  transition: 0.3s ease-in-out;
+}
+
+.s1 {
+  color: #ffb00b;
+  letter-spacing: 1px;
+  border-bottom: 1px solid transparent;
+  border-top: 1px solid transparent;
+}
+
+.s1:hover {
+  color: #ffb00b;
+  text-decoration: none;
+  border-bottom: 1px solid #ffb00b;
+  border-top: 1px solid #ffb00b;
+}
+
+.name_project {
+  color: #ff8f5c;
+  margin-top: 30px;
+}
+
+.employ_color_orng {
+  color: #ff8f5c;
+  margin-top: 30px;
+}
+
+.contact {
+  font-size: 15px;
+}
